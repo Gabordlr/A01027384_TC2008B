@@ -18,7 +18,6 @@ public class HorizontalMotion : MonoBehaviour
     {
         move.x = Input.GetAxis("Horizontal");
 
-        Debug.Log("X motion:" + move.x);
 
         if (transform.position.x < -limit && move.x < 0)
         {

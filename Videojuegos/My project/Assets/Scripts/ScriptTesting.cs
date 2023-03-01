@@ -23,7 +23,7 @@ public class ScriptTesting : MonoBehaviour
 
     void dropBall()
     {
-        Vector3 pos = new Vector3(Random.Range(-5.0f, 5.0f), 6, 0);
+        Vector3 pos = new Vector3(Random.Range(-30.0f, 30.0f), 10, 0);
         GameObject obj = Instantiate(ball, pos, Quaternion.identity);
         Destroy(obj, dead);
     }
